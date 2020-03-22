@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+	background-color: #fbdd9d;
+}
+
+h1 {
+	padding: 5px;
+}
+
+body {
+	position: relative
+}
+
+div {
+	padding: 5px;
+	opacity: 150%;
+}
+
+footer {
+	text-align: center;
+}
+
+#Home {
+	width: 100px;
+	text-align: center;
+	background-color: #e9bf59;
+	border-radius: 7px;
+	border-bottom: 10px;
+}
+
+#Home:hover {
+	background-color: #4f4e28;
+}
+
+img {
+	width: 75%;
+	padding: 10px;
+}
+
+#Maand {
+	padding: 10px;
+	border-radius: 7px;
+	background-color: #4a5e26;
+	width: 110px;
+	color: white;
+}
