@@ -3,12 +3,11 @@
 * {
   box-sizing: border-box;
   border: 10%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #Text {
-  padding: 5px;
-  text-align: center;
+  padding: 10px;
   color: black;
   position: absolute;
   top: 10px;
@@ -20,23 +19,34 @@ h1 {
 }
 
 /* Simple Responsive Framework. */
+
+#One, #Two, #Three {
+  padding: 10px;
+  box-sizing: border-box;
+}
 #container1, #container2, #container3 {
   width: 100%;
-  height: 150px;
+  height: 180px;
   position: relative;
   border: 1px black;
   background-color: #E3E3E3;
   margin-bottom: 25px;
-  margin-right: auto;
-  margin-left: auto;
+  border: 1px solid black;
+  overflow: auto;
+  padding: 10px;
+  margin-right: : 10px;
 }
 
 #Title1, #Title2, #Title3 {
   font-size: 125%;
   text-align: center;
-  width: 80px;
+  width: 90px;
   height: 25px;
-  float: right;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black; 
 }
 
 #Title1 {
@@ -51,9 +61,7 @@ h1 {
   background-color: #77A4C5 ;
 }
 
-#One, #Two, #Three {
-  padding: 10px;
-}
+
 
 /********** Desktop **********/
 @media (min-width: 992px) {
