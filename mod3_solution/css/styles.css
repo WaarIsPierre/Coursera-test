@@ -10,6 +10,7 @@ body {
   border: 0;
   padding-bottom: 0px;
   border-top: none;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -58,7 +59,6 @@ body {
 
 #collapsable-nav {
   background-color: #fbf7f5;
-
 }
 
 /* Main Content */
@@ -89,6 +89,17 @@ body {
 	font-style: bold;
 }
 
-#link {
-	
+@media (min-width: 767px) {
+	#collapsable-nav {
+  		background-color: #d6b891;
+	}
+
+	#header-nav {
+	  	background-color: #d6b891;
+	  	border-radius: 0;
+	  	border: 0;
+	  	padding-bottom: 30px;
+	  	border-top: none;
+	  	width: 100%;
+	}
 }
