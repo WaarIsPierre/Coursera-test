@@ -1,0 +1,95 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Baloo 2', cursive;
+  background-color: #fbf7f5;
+}
+
+#header-nav {
+  background-color: #d6b891;
+  border-radius: 0;
+  border: 0;
+  padding-bottom: 0px;
+  border-top: none;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  font-family: 'Baloo 2', cursive;
+  color: #000;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 0px;
+  background-color: #fbf7f5;
+  border: 2px solid black;
+}
+
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+
+#nav-list hr {
+	border-bottom: 2px solid black;
+	margin: 0;
+}
+
+#nav-list li:hover {
+  background: #c0c5cd;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#collapsable-nav {
+  background-color: #fbf7f5;
+
+}
+
+/* Main Content */
+#main-content {
+	color: #000;
+	position: relative;
+}
+
+#container1, #container2, #container3 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#tile-one, #tile-two, #tile-three {
+  	padding: 15px;
+  	box-sizing: border-box;
+	background-color: #d6b891;
+	margin-bottom: 25px;
+	width: 100%;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#name1, #name2, #name3 {
+	text-align: center;
+	font-size: 1.2em;
+	font-style: bold;
+}
+
+#link {
+	
+}
