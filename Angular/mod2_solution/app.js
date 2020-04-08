@@ -15,7 +15,6 @@
 
     list.move2Bought = function (itemIndex) {
         ShoppingListService.move2Bought(itemIndex);
-        list.msgEnd = ShoppingListService.msg(list.toBuy);
     };
   };
 
@@ -24,8 +23,6 @@
     var list = this;
 
       list.bought = ShoppingListService.addBought();
-      // list.msg = ShoppingListService.getMsg();
-
   };
 
   function ShoppingListService () {
@@ -58,6 +55,7 @@
               quantity: "1 new"
             }];
             return toBuy;
+            service.empMsg = "Nothing Bought Yet";
     };
 
     service.move2Bought = function (itemIndex) {
@@ -68,14 +66,6 @@
     service.addBought = function () {
         return bought;
     };
-
-    service.msg = function (Length) {
-      if (Length.length === 0) {
-        return "Everything is bought!"
-      }
-    };
-
-
   };
 
 })();
