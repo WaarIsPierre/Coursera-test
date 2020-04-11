@@ -1,0 +1,41 @@
+<!-- <ol>
+  <li ng-repeat="found in menu.found">
+    {{ found.name }}  ||  {{ found.short_name }}  ||   {{ found.description }}
+    <button ng-click="found.removeItem({index: $index});">Don't want this one!</button>
+  </li>
+</ol> -->
+
+<div class="row">
+  <div ng-repeat="item in menu.foundItems">
+    <div id="item">
+      <div>
+        Name: {{ item.name }}
+        </div>
+        <div>
+          Short name: {{item.short_name}}
+        </div>
+        <div>
+          Description: {{ item.description }}
+        </div>
+
+      <button id="button" ng-click="menu.onRemove({index: $index});">Don't want this one!</button>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="row">
+<div ng-repeat="item in menu.foundItems" class="ng-scope">
+<div class="clearfix ng-scope" ng-if="$index % 2 == 0"></div>
+        <div class="col-md-6">
+            <div class="jumbotron">
+                <h2 class="ng-binding">Fried Chicken Wing (6)</h2>
+                <h3 class="ng-binding">B13</h3>
+                <p class="ng-binding">6 pieces of curry-flavored chicken wings</p>
+                <input type="button" ng-click="menu.onRemove({index: $index})" class="btn btn-lg btn-primary" value="Don't want this one!">
+            </div>
+        </div>
+    </div>
+</div>
+ -->
