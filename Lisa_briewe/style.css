@@ -40,9 +40,11 @@ img {
 }
 
 #Maand {
+	margin: 20px;
 	padding: 10px;
 	border-radius: 7px;
 	background-color: #4a5e26;
 	width: 110px;
 	color: white;
+	float: left;
 }
