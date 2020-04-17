@@ -1,0 +1,29 @@
+<div class="container">
+    <div ng-if="viewCtrl.user">
+      <p>Name: {{viewCtrl.user.name}}</p>
+
+
+      <p>Surname: {{viewCtrl.user.surname}}</p>
+
+
+      <p>Email: {{viewCtrl.user.email}}</p>
+
+
+      <p>Phone: {{viewCtrl.user.phone}}</p>
+
+
+      <p>Favorite Dish: {{viewCtrl.user.item.name}}</p>
+
+    </div>
+
+    <div id="menu-item">
+      <h3>{{viewCtrl.user.item.name}}</h3>
+     <img class="img-responsive" width="250" height="150" ng-src="{{viewCtrl.user.basePath}}/images/{{viewCtrl.user.item.short_name}}.jpg" alt="{{viewCtrl.user.item.short_name}}">
+     <h5>{{viewCtrl.user.item.description}}</h5>
+    </div>
+
+    <div ng-if = "!viewCtrl.user" >
+      <a ui-sref="public.signUp">You must still register!</a>
+      <!-- <button ui-sref="public.signUp">Regsiter</button> -->
+    </div>
+</div>
