@@ -4,12 +4,32 @@
 	background-color: #fbdd9d;
 }
 
+.container {
+	width: 100%;
+	margin: 0;
+}
+
+a.navbar-brand {
+	font-size: 1.8em;
+}
+
+a.nav-link {
+	text-align: center;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+background-color: #fff;
+color: #333;
+}
+
 h1 {
 	padding: 5px;
+	font-family: "Courier New", Courier, monospace;
 }
 
 body {
-	position: relative
+	position: relative;
+	background-color: #e9bf59;
 }
 
 
@@ -47,4 +67,10 @@ img {
 	width: 110px;
 	color: white;
 	float: left;
+}
+
+.nav-item {
+	border: 1px solid black;
+
+	margin: 2px;
 }
